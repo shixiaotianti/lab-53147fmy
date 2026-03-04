@@ -43,3 +43,9 @@ out/
 *.pid
 *.seed
 *.pid.lock
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
